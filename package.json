@@ -1,0 +1,24 @@
+{
+  "name": "particles.js-es",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirony/particles.js-es.git"
+  },
+  "keywords": [
+    "particles.js",
+    "particles",
+    "es"
+  ],
+  "author": "Romain Pouchol <romainpouchol@gmail.com> (https://romainpouchol.fr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pirony/particles.js-es/issues"
+  },
+  "homepage": "https://github.com/pirony/particles.js-es#readme"
+}
