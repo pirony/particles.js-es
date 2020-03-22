@@ -1530,7 +1530,7 @@ const particlesJS = (tag_id, params, action) => {
 
 }
 
-const load = (tag_id, config_json, callback) => {
+const init = (tag_id, config_json, callback) => {
   if (typeof window !== 'undefined') {
     if (!config_json) {
       particlesJS(tag_id, {})
@@ -1561,7 +1561,7 @@ const load = (tag_id, config_json, callback) => {
 
 
 export default {
-  load,
+  init,
   refresh: (tag_id, params) => {
     pJS(tag_id, params, 'refresh')
   },
