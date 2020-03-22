@@ -6,8 +6,6 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> Es version of the awesome particles.js (https://github.com/VincentGarreau/particles.js/) module created by @VincentGarreau
-
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
