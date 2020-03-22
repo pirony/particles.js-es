@@ -807,7 +807,7 @@ const formatpJSObject = (pJS, canvas_el) => {
           dist_mouse = Math.sqrt(dx_mouse*dx_mouse + dy_mouse*dy_mouse),
           ratio = 1 - dist_mouse / pJS.interactivity.modes.bubble.distance
 
-      function init(){
+      function setup(){
         p.opacity_bubble = p.opacity
         p.radius_bubble = p.radius
       }
@@ -857,13 +857,13 @@ const formatpJSObject = (pJS, canvas_el) => {
         }
 
       }else{
-        init()
+        setup()
       }
 
 
       /* mouseleave */
       if(pJS.interactivity.status == 'mouseleave'){
-        init()
+        setup()
       }
 
     }
@@ -1366,21 +1366,21 @@ const formatpJSObject = (pJS, canvas_el) => {
         //console.log('images loaded! cancel check')
         cancelRequestAnimFrame(pJS.tmp.checkAnimFrame)
         if(!pJS.tmp.img_error){
-          pJS.fn.vendors.init()
+          pJS.fn.vendors.setup()
           pJS.fn.vendors.draw()
         }
 
       }
 
     }else{
-      pJS.fn.vendors.init()
+      pJS.fn.vendors.setup()
       pJS.fn.vendors.draw()
     }
 
   }
 
 
-  pJS.fn.vendors.init = function(){
+  pJS.fn.vendors.setup = function(){
 
     /* init canvas + particles */
     pJS.fn.retinaInit()
