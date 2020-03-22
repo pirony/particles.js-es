@@ -165,8 +165,6 @@ You can generate usage ready options object with a cool WYSIWYG tool on @Vincent
 
 [MIT License](./LICENSE)
 
-Copyright (c) pirony <romainpouchol@gmail.com>
-
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/particles.js-es/latest.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/particles.js-es
