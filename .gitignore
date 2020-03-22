@@ -1,0 +1,11 @@
+node_modules
+*.iml
+.idea
+*.lock
+yarn.lock
+*.log*
+.nuxt
+.vscode
+.DS_Store
+coverage
+dist

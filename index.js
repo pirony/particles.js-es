@@ -117,7 +117,7 @@ const pJSDefaults = {
 }
 
 
-const pJS = (tag_id, params, action) => {
+const pJS = function (tag_id, params, action) {
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el')
   pJSDefaults.canvas = {
     el: canvas_el,
@@ -1531,7 +1531,6 @@ const particlesJS = (tag_id, params, action) => {
 }
 
 const load = (tag_id, config_json, callback) => {
-  console.log(config_json);
   if (typeof window !== 'undefined') {
     if (!config_json) {
       particlesJS(tag_id, {})
